@@ -79,6 +79,19 @@ namespace WebAppGraphAPI.Controllers
                     profile.GivenName = " ";
                     profile.Surname = " ";
                     ViewBag.ErrorMessage = "UnexpectedError";
+                    //
+                    profile.JobTitle = " ";
+                    profile.Department = " ";
+                    profile.PhysicalDeliveryOfficeName = " ";
+                    profile.CompanyName = " ";
+                    profile.City = " ";
+                    profile.PostalCode = " ";
+                    profile.Mobile = " ";
+                    profile.TelephoneNumber = " ";
+                    profile.FacsimileTelephoneNumber = " ";
+                    profile.Mail = " ";
+                    profile.EmployeeId = " ";
+                    profile.PreferredLanguage = " ";
                 }
             }
             catch (Exception e)
