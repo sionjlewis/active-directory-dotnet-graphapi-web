@@ -10,6 +10,14 @@ This is a sample MVC Web application that shows how to make RESTful calls to the
 
 For more information about how the protocols work in this scenario and other scenarios, see the REST API and Authentication Scenarios on http://msdn.microsoft.com/aad.
 
+## Notes for this Branch
+
+- Updated the Project's URL to use https 
+- Updated all of the NuGet Package to their latest versions, as of 23/09/2017. The only exception being "System.IdentityModel.Tokens.Jwt", which need to stay at version 4.x.x.x (e.g. 4.0.4.403061554) to be compatible with .NET 4.6
+- Applied Barry Waluszko's "Fixes Access Token issue #44"
+- Extended the UserProfile example with some more properties
+- Added the "Redirect to https"  to the web.config
+
 ## How To Run This Sample
 
 To run this sample you will need:
