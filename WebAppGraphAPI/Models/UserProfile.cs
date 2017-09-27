@@ -29,6 +29,10 @@ namespace WebAppGraphAPI.Models
         public string EmployeeId { get; set; }
         public string PreferredLanguage { get; set; }
         /// <summary>
+        /// AAD Object ID
+        /// </summary>
+        public string ObjectId { get; set; }
+        /// <summary>
         /// User Principal Name (UPN) is the name of a system user in an e-mail address format.
         /// </summary>
         public string userPrincipalName { get; set; }
